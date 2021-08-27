@@ -1,0 +1,26 @@
+{
+    "name": "odinshat/uk-pol-api",
+    "description": "UK Parliament API written in PHP.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/command": "^1.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "squizlabs/php_codesniffer": "^3.6",
+        "vimeo/psalm": "^4.9"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Odinshat\\UkPolApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Doug Bromley",
+            "email": "doug@tintophat.com"
+        }
+    ]
+}
