@@ -25,7 +25,7 @@ Data available through the API includes:
 
 I'm always open to contribution but you will need to meet a few important criteria to submit a Pull Request.
 
-1. Any and all tests must pass and any new code muyst have tests.
+1. Any and all tests must pass and any new code must have tests.
 2. Code must pass the Psalm static analysis tool which can be run from the root dir of the repo by `composer analyze`
 3. Code must be run through php-cs-fixer to ensure code readability and consistency with `composer fix`
 4. Code must pass the checks made during a PR request to be accepted. If it fails, don't be disheartened. You cna
